@@ -1,0 +1,26 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "Offentliga toaletter",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.626410265251092, 59.19239042501008 ]
+			},
+			"properties" : {
+				"Plats" : "Södertälje C pendeltågsstation"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.62645930179187, 59.197323763661416 ]
+			},
+			"properties" : {
+				"Plats" : "Gågatan Stora Torget"
+			}
+		}
+	]
+}
