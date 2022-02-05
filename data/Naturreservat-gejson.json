@@ -1,0 +1,396 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "Naturreservat",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.670249699680486, 59.138487119925315 ]
+			},
+			"properties" : {
+				"Namn" : "Öbacken-Bränninge naturreservat",
+				"Information" : "En sann naturpärla nära Södertälje tätort! I reservatet finns ett berg som är täckt av hög barrskog med fantastisk vy över Södra viken. I den betade hagmarken hittar du en fin och rik hagmarksflora bland dungar av björk och hassel. Den fridlysta orkidén",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/obacken-branninge/",
+				"Naturvårdsregistrets ID" : "2000634",
+				"WDPA-ID" : "152461",
+				"Wikidatas Q-nummer" : "Q10727059"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.653066962877954, 58.966553541097134 ]
+			},
+			"properties" : {
+				"Namn" : "Slessbergets naturreservat",
+				"Information" : "I Slessberget har naturen fått sköta sig själv. Död ved gynnar insekter, mossor, svampar och fåglar. Rester av en fornborg tronar uppe på berget. Ofta syns korpar leka i vindarna runt bergets toppar. Följ stigen upp och njut av utsikten!",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/slessberget/",
+				"Naturvårdsregistrets ID" : "2000418",
+				"WDPA-ID" : "152720",
+				"Wikidatas Q-nummer" : "Q10671555"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.570119662487777, 59.082432101945315 ]
+			},
+			"properties" : {
+				"Namn" : "Moraåns dalgång naturreservat",
+				"Information" : "Här vandrar havsöringen uppströms för att lägga sina ägg. Följ naturstigen och upptäck en regnskogsliknande natur i den djupa åravinen! Hagmarkerna avslöjer många fornlämningar och delvis ovanlig flora.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/moraans-dalgang/",
+				"Naturvårdsregistrets ID" : "2041593",
+				"WDPA-ID" : "555551342",
+				"Wikidatas Q-nummer" : "Q30177152"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.649276667687477, 58.95037682617673 ]
+			},
+			"properties" : {
+				"Namn" : "Kålsö naturreservat",
+				"Information" : "Kålsö är en halvö med betade strandängar, hagmarker och en bergsknalle. Fina ädellövskogar finns med ek, lind, ask och lönn. Ovanliga lavar trivs på de grova lövträden. I lundarna frodas en örtrik flora. Här finns också gott om fåglar. Utanför Kålsö, i B",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/kalso/",
+				"Naturvårdsregistrets ID" : "2000160",
+				"WDPA-ID" : "152090",
+				"Wikidatas Q-nummer" : "Q10552025"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.394029203820903, 59.250856891738536 ]
+			},
+			"properties" : {
+				"Namn" : "Parkudden-Lövsta naturreservat",
+				"Information" : "Har hittar du en klassisk herrgårdsmiljö med gamla hagmarker bland ekar och allé. Utsikten från Bålaren är magnifik och floran vacker och rik, särskilt på våren.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/parkudden/",
+				"Naturvårdsregistrets ID" : "2001389",
+				"WDPA-ID" : "151348",
+				"Wikidatas Q-nummer" : "Q10620470"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.625150890259935, 59.0470919958438 ]
+			},
+			"properties" : {
+				"Namn" : "Yttereneby naturreservat",
+				"Information" : "Här kan du njuta av strandängar, ekmiljöer och skogsbeklädda berg. Kor betar i hagen hela sommaren. Längst ute på udden vid Stavbofjärdens strand kan du grilla vid en omtyckt rastplats med fantastiska vyer. Floran är artrik.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/yttereneby/",
+				"Naturvårdsregistrets ID" : "2000008",
+				"WDPA-ID" : "153108",
+				"Wikidatas Q-nummer" : "Q10723827"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.609229866695085, 59.23220707012237 ]
+			},
+			"properties" : {
+				"Namn" : "Talbyskogens naturreservat",
+				"Information" : "Talbyskogen - sagoskogen! Nära Södertälje finns denna riktigt gamla skog som fått stå orörd i över hundra år. Här hittar du mycket svamp bland lutande tallar och mossbeklädda stenar.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/talbyskogen/",
+				"Naturvårdsregistrets ID" : "2002914",
+				"WDPA-ID" : "326473",
+				"Wikidatas Q-nummer" : "Q10690208"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.45604545520053, 58.99408100704079 ]
+			},
+			"properties" : {
+				"Namn" : "Grottbergets naturreservat",
+				"Information" : "Grottberget är ett välgömt litet reservat. Här finns rester av en fornborg, grottor och stora stenblock. Reservatet skyddar flera rödlistade arter av svampar, lavar, mossor och insekter.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/grottberget/",
+				"Naturvårdsregistrets ID" : "2000011",
+				"WDPA-ID" : "151853",
+				"Wikidatas Q-nummer" : "Q10509025"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.511761250454253, 59.23202166799331 ]
+			},
+			"properties" : {
+				"Namn" : "Bårsjöns naturreservat",
+				"Information" : "Bårsjön omges av artrika våtmarker och sumpskogar och ger en känsla av vildmark. I Bårsjöns myrmarker kan du känna doften av svattram och pors och se älvorna dansa när dimman lättar över myren. Täljeleden går genom reservatet.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/barsjon/",
+				"Naturvårdsregistrets ID" : "2002831",
+				"WDPA-ID" : "193009",
+				"Wikidatas Q-nummer" : "Q10438614"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.617236202013956, 59.25156081982143 ]
+			},
+			"properties" : {
+				"Namn" : "Korpbergets naturreservat",
+				"Information" : "Korpberget är en bergsrygg som bjuder på milsvida vyer över Märlaren. Här trivs korpar, rovfåglar och murgröna. Nedanför berget sträcker Lindängen ut sig, en artrik lövskog som förr i tiden varit en slåtteräng.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/korpberget/",
+				"Naturvårdsregistrets ID" : "2000017",
+				"WDPA-ID" : "173021",
+				"Wikidatas Q-nummer" : "Q10548129"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.677827159839232, 59.21671818525304 ]
+			},
+			"properties" : {
+				"Namn" : "Bornsjön naturreservat",
+				"Information" : "Bornsjön passar alla! Reservatet är stort och ligger i ett landskap fårat av bergryggar och mellanliggande dalar med sjöar och jordbruksmark. Här kan du njuta av fina bad, cykel- och promenadstråk.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/bornsjon/",
+				"Naturvårdsregistrets ID" : "2001390",
+				"WDPA-ID" : "103380",
+				"Wikidatas Q-nummer" : "Q10433291"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.487604832299784, 59.15285305619696 ]
+			},
+			"properties" : {
+				"Namn" : "Vackstaskogens naturreservat",
+				"Information" : "Vackstaskogen ligger vid Långsjöns strand och är rik på lövträd. Här finns det ovanligt gott om gammal asp som har stor betydelse för ovanliga växter, svampar och insekter.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/vackstaskogen/",
+				"Naturvårdsregistrets ID" : "2028209",
+				"WDPA-ID" : "555544927",
+				"Wikidatas Q-nummer" : "Q30178564"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.566231279724576, 58.97558317896149 ]
+			},
+			"properties" : {
+				"Namn" : "Tullgarns naturvårdsområde",
+				"Information" : "Här kan du uppleva Södertäljes alla olika naturmiljöer. Du kan ströva i stora lövskogar, täta granskogar eller hällmarksskogar. Du kan promenera utmed strandängar, i hagmarker och upp på utsiktsberg. Här finns en mångfald av växter och djur. Skräddartorp",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/tullgarn-naturvardsomrade/",
+				"Naturvårdsregistrets ID" : "2002027",
+				"WDPA-ID" : "103383",
+				"Wikidatas Q-nummer" : "Q10706129"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.414832678733244, 59.090411647335074 ]
+			},
+			"properties" : {
+				"Namn" : "Stora Alsjöns naturreservat",
+				"Information" : "Här hittar du orörd storskog och tystnaden. Lyssna på korparnas kraxande och tjäderns spel. Skogen är speciell då den har brunnit så sent som år 2002. Området är kuperat och omfattar flera sjöar och myrområden. Sörmlandsleden går genom reservatet.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/stora-alsjon2/",
+				"Naturvårdsregistrets ID" : "2013371",
+				"WDPA-ID" : "380350",
+				"Wikidatas Q-nummer" : "Q10680961"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.653344570115944, 59.09417328773784 ]
+			},
+			"properties" : {
+				"Namn" : "Farstanäs naturreservat",
+				"Information" : "Farstanäs är mest känt för sin fina badplats och stora camping. Men reservatet erbjuder mycket mer! Här kan du ströva i sagoskog, sitta på klippor och titta ut över havet, vandra på lättillgängliga stigar. Du kan beundra stora ekar, njuta av gammal herrg",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/farstanas/",
+				"Naturvårdsregistrets ID" : "2000158",
+				"WDPA-ID" : "151706",
+				"Wikidatas Q-nummer" : "Q10494170"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.70779576749254, 58.850645915468554 ]
+			},
+			"properties" : {
+				"Namn" : "Fifång naturreservat",
+				"Information" : "Öarna Fifång, Oxnö och Korpen samt ett 20-tal mindre holmar och skär ingår i reservatet. Här finns en fin naturhamn där gästande båtar kan lägga sig vid bryggorna. Upptäck jättegrytan på Fifång, fördjupningar i berget som bildats av inlandsisen. Här finn",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/fifang/",
+				"Naturvårdsregistrets ID" : "2002734",
+				"WDPA-ID" : "173030",
+				"Wikidatas Q-nummer" : "Q18289763"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.450580587833908, 59.08515995103603 ]
+			},
+			"properties" : {
+				"Namn" : "Vattgruvmossens naturreservat",
+				"Information" : "Vattgruvmossen är mossen bland mossar! Njut av doften från skvattram och pors. Kring kanten finns hällmarkstallskogar i kuperad terräng. Tranor trivs här och på våren finns chans att höra spelande orrar och trädlärkans vemodiga sång. Mossar som denna är",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/vattgruvsmossen/",
+				"Naturvårdsregistrets ID" : "2000012",
+				"WDPA-ID" : "153057",
+				"Wikidatas Q-nummer" : "Q10713464"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.605242682011145, 58.95988665850552 ]
+			},
+			"properties" : {
+				"Namn" : "Tullgarns naturreservat",
+				"Information" : "Här kan du uppleva Södertäljes alla olika naturmiljöer. Du kan ströva i stora lövskogar, täta granskogar eller hällmarksskogar. Du kan promenera utmed strandängar, i hagmarker och upp på utsiktsberg. Här finns en mångfald av växter och djur och fantastis",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/tullgarn/",
+				"Naturvårdsregistrets ID" : "2002195",
+				"WDPA-ID" : "152963",
+				"Wikidatas Q-nummer" : "Q10706128"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.64655621740545, 58.93059272867865 ]
+			},
+			"properties" : {
+				"Namn" : "Eriksö naturreservat",
+				"Information" : "Eriksö har varit en ö men hänger nu ihop med Mörkö. Eriksö är ett eldorado för botaniskt intresserade. Floran är rik både i de betade hagmarkerna och havsstrandängarna. Utanför Eriksö ligger Boviken med sin frodiga undervattensdjungel där både ovanliga v",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/erikso/",
+				"Naturvårdsregistrets ID" : "2000156",
+				"WDPA-ID" : "173023",
+				"Wikidatas Q-nummer" : "Q10487760"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.58049521226314, 59.22728509346085 ]
+			},
+			"properties" : {
+				"Namn" : "Lina naturreservat",
+				"Information" : "Lina naturreservat har allt! Nära stan, lättillgänglig, vacker naturlig mångfald av olika naturtyper, många markerade promenadslingor, fågeltorn, Mora torp, grillplatser och mycket mer. Kom och njut av naturen kring Lina lersjö, våtmarker, betade hagmark",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/lina/",
+				"Naturvårdsregistrets ID" : "2000622",
+				"WDPA-ID" : "173019",
+				"Wikidatas Q-nummer" : "Q10562401"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.34426504501973, 59.11353292804018 ]
+			},
+			"properties" : {
+				"Namn" : "Stora Envätterns naturreservat",
+				"Information" : "Upplev riktig vildmark! Sjön är mycket frisk och kristallklar. Det är tyst, bara storlommens kraftiga flöjtande hörs. Runt sjön finns gammal gran- och tallskog. Sörmlandsleden går igenom reservatet.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/stora-envattern/",
+				"Naturvårdsregistrets ID" : "2000013",
+				"WDPA-ID" : "152800",
+				"Wikidatas Q-nummer" : "Q10680987"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.359512664521077, 59.05929875788033 ]
+			},
+			"properties" : {
+				"Namn" : "Skogstorps naturreservat",
+				"Information" : "I Skogstorps naturreservat får du uppleva djup, mörk, fuktig sagoskog och riktigt gamla tallar på häll. Området är rikt på gamla träd, död ved, svamp, lavar och mossor. Här har du stora möjligheter att få se vilt och kanske även tjäder.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/skogstorp/",
+				"Naturvårdsregistrets ID" : "2043487",
+				"WDPA-ID" : "555589263",
+				"Wikidatas Q-nummer" : "Q30169842"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.7026007853344, 59.003238170703995 ]
+			},
+			"properties" : {
+				"Namn" : "Kalkbergets naturreservat",
+				"Information" : "Kalkberget är en bergsrygg som består av urbergskalksten. Flora och insektsfauna liknar därför närmast den som finns på Gotland eller Öland. Spännande! En markerad vandringsled finns upp på berget. I nordöst finns ett gammal övergivet kalkbrott. Utsikten",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/kalkberget/",
+				"Naturvårdsregistrets ID" : "2005620",
+				"WDPA-ID" : "381212",
+				"Wikidatas Q-nummer" : "Q10542644"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.68048024651388, 59.103850560415104 ]
+			},
+			"properties" : {
+				"Namn" : "Brandalsunds naturreservat",
+				"Information" : "Upplev vidsträckta sandstränder, en pelarsal av mäktiga tallar och njut av områdets artrika hagmarksflora och fornlämningar. Det är lätt att ta sig runt på de hårda grusstigarna. Det finns en anlagd parkering, picknickbord, murade eldstäder och toalett.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/brandalssund/",
+				"Naturvårdsregistrets ID" : "2044379",
+				"WDPA-ID" : "555595322",
+				"Wikidatas Q-nummer" : "Q29580033"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.40185067959776, 59.31798170168233 ]
+			},
+			"properties" : {
+				"Namn" : "Hamnskärs naturreservat",
+				"Information" : "I Hamnskärs naturreservat har ekarna och lindarna fått växa sig gamla och vidkroniga. Här har betesdjuren och slåtter format landskapet och skapat möjligheter för många andra arter att trivas. Om du har egen båt och kan ta dig hit, kan du promenera i sti",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/hamnskar/",
+				"Naturvårdsregistrets ID" : "2049262",
+				"WDPA-ID" : "555639456",
+				"Wikidatas Q-nummer" : "Q89399237"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.53698786792328, 59.27682790356238, 0 ]
+			},
+			"properties" : {
+				"Namn" : "Slandön",
+				"Information" : "Syftet med reservatet ska vara att bevara den biologiska mångfalden knuten till de gamla barrträdsdominerade skogarna med inslag av lövträd på sandigt till grusigt underlag, samt att vårda och bevara områdets värdefulla naturmiljöer. Reservatet ska vara tillgängligt för allmänhetens friluftsliv på sådant sätt att dess naturvärden inte skadas.",
+				"Webbsida" : "https://www.sodertalje.se/kultur-och-fritid/natur-och-friluftsliv/utflykter-i-naturen/slandon/",
+				"Naturvårdsregistrets ID" : "2052463",
+				"WDPA-ID" : null,
+				"Wikidatas Q-nummer" : "Q10671459"
+			}
+		}
+	]
+}
