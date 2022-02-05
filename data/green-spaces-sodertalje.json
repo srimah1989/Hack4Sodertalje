@@ -1,0 +1,330 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "Parker",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.62844543917043, 59.19221131345052 ]
+			},
+			"properties" : {
+				"Namn" : "Stadsparken",
+				"Beskrivning" : "Stadsparken är en grön oas i centrala Södertälje. Under 2007–2008 rustades parken upp för att bli mer attraktiv och användbar för Södertäljes invånare och besökare.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.620985192394333, 59.187016156069035 ]
+			},
+			"properties" : {
+				"Namn" : "Mariekällravinen",
+				"Beskrivning" : null,
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.619570524838995, 59.19716085043615 ]
+			},
+			"properties" : {
+				"Namn" : "Dalparken",
+				"Beskrivning" : "Dalparken är en av Södertäljes mest uppskattade parker. Här finns både en lekplats och en stor gräsyta för lek, spel eller picnick. Lekplatsen byggdes om 2006 och är anpassad till barn med funktionshinder.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.622317881700088, 59.19189406207629 ]
+			},
+			"properties" : {
+				"Namn" : "Badparken",
+				"Beskrivning" : "Badparken är Södertäljes äldsta park och en av de finaste och mest använda. Parken sträcker sig från Oxbacksleden/Järnagatan upp mot Torekällberget.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.603286936572175, 59.175756764698974 ]
+			},
+			"properties" : {
+				"Namn" : "Hovsjöparken",
+				"Beskrivning" : null,
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.66632179872564, 59.192992421398245 ]
+			},
+			"properties" : {
+				"Namn" : "Fornhöjdsparken",
+				"Beskrivning" : "Ett grönområde mitt i centrala Fornhöjden. Här planeras det att byggas ut en helt ny lekplats.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.656356518367353, 59.15060301601802 ]
+			},
+			"properties" : {
+				"Namn" : "Trollsjön",
+				"Beskrivning" : "Trollsjön är en grön oas i Pershagen där Trollsjöns lekplats, en fotbollsplan och en dammanläggning ligger.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.579849100297448, 59.19216632722917 ]
+			},
+			"properties" : {
+				"Namn" : "Genetafältet",
+				"Beskrivning" : "Genetafältet är ett stort öppet grönområde lokaliserat i centrala Geneta. Platsen är en idrotts- och rekreationsyta. Här ligger lekplatsen Geneta parklek som är en större stadsdelslekplats. ",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.60076981197853, 59.201120135577575 ]
+			},
+			"properties" : {
+				"Namn" : "Bårstafältet",
+				"Beskrivning" : null,
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.66107798863425, 59.15524756119911 ]
+			},
+			"properties" : {
+				"Namn" : "Pershagens strandpromenad ",
+				"Beskrivning" : "",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.624910608132144, 59.19851065929771 ]
+			},
+			"properties" : {
+				"Namn" : "Turingelunden",
+				"Beskrivning" : "Turingelunden är en grön oas som ligger på Storgatan, mitt emot kyrkan. Hjärtat i parken är de ovala gradängerna och dammen med porlande vatten från statyn Morgonbad av Stig Blomberg. Bänkar runt dammen och omgivande sommarblommor ger förutsättningar för ",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.56518670704676, 59.08897277806398 ]
+			},
+			"properties" : {
+				"Namn" : "Järna torg ",
+				"Beskrivning" : "",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.630591267534186, 59.19811114292234 ]
+			},
+			"properties" : {
+				"Namn" : "Lagmansparken",
+				"Beskrivning" : null,
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.630849906648685, 59.19451515237569 ]
+			},
+			"properties" : {
+				"Namn" : "Vänortsparken",
+				"Beskrivning" : null,
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.629765608405794, 59.19186622223361 ]
+			},
+			"properties" : {
+				"Namn" : "Borgmästarparken",
+				"Beskrivning" : "År 1896 - 1946 var Jakob Pettersson borgmästare i Södertälje. Parken som växte fram under 2013 var tidigare en del av Borgmästarvillans trädgård och fick därifrån sitt namn Borgmästarparken. Det är en fickpark med öppet intryck och blommande perenna ytor.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.56492909369892, 59.09244391905498 ]
+			},
+			"properties" : {
+				"Namn" : "Stinsträdgården",
+				"Beskrivning" : "",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.627540249872514, 59.20279832214813 ]
+			},
+			"properties" : {
+				"Namn" : "Tobaksparken",
+				"Beskrivning" : "Tobaksparken innehåller en mindre närlekplats.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.62636082282174, 59.205733137317054 ]
+			},
+			"properties" : {
+				"Namn" : "Mälareparken",
+				"Beskrivning" : "Mälareparken ligger intill Södertälje Bangolfklubb",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.633568566807572, 59.21324820225977 ]
+			},
+			"properties" : {
+				"Namn" : "Brunnsängsparken",
+				"Beskrivning" : "Brunnsängsparken innehåller en större stadsdelslekplats som renoverades 2020.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.6292865608932, 59.200495129284924 ]
+			},
+			"properties" : {
+				"Namn" : "Zacharias Anthelius park",
+				"Beskrivning" : "Parken ligger intill katolska kyran och renoverades 2014. Parken har en vacker utsikt över kanalen och innehåller flera artrika perennplanteringar. I parken står statyn 'Mor och barn' som gjordes av konstnären Ivar Johnsson år 1957. ",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.619826538413907, 59.200489184339844 ]
+			},
+			"properties" : {
+				"Namn" : "Kvarnlunden",
+				"Beskrivning" : "Kvarnlunden är en av Södertäljes finaste parkoaser. Det är en lugn plats för vila och kontemplation. Den anlades på 1950-talet och rustades upp under 2006–2007. Upprustningen gjordes med stor hänsyn till den ursprungliga parkanläggningen.",
+				"Webbsida" : "https://www.sodertalje.se/stad-och-trafik/lekplatser-och-parker/"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.659824140520243, 59.181592185572576 ]
+			},
+			"properties" : {
+				"Namn" : "Korpuddsparkens strandpromenad",
+				"Beskrivning" : "Korpuddsparken är en nyanlagd strandpromenad med lekplats, hundrastgård, utegym, två grillplatser och ängsyta. Det finns flera sittplatser och två utkiksplatser längst med parkstråket. Korpuddsparken byggdes ut under 2020.",
+				"Webbsida" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.626144801891005, 59.192758225597416 ]
+			},
+			"properties" : {
+				"Namn" : "Järnvägsparken",
+				"Beskrivning" : null,
+				"Webbsida" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.657125175276363, 59.187465462350524 ]
+			},
+			"properties" : {
+				"Namn" : "Centralparken",
+				"Beskrivning" : null,
+				"Webbsida" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.638173132568152, 59.20249414088661 ]
+			},
+			"properties" : {
+				"Namn" : "Hagaparken",
+				"Beskrivning" : null,
+				"Webbsida" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.636718407073765, 59.202173670723894 ]
+			},
+			"properties" : {
+				"Namn" : "Hasse Tellemars plats",
+				"Beskrivning" : "Parken har fått sitt namn uppkallat efter musikern och radioprofilen Hasse Tellemar. Hasse föddes och bodde i Södertälje under hela sitt liv. Han är bland annat känd för sitt program 'Refrängen' och som programledare för 'Ring så spelar vi'.",
+				"Webbsida" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 17.566965183463935, 59.08559003270701 ]
+			},
+			"properties" : {
+				"Namn" : "Blåklocksstigens park",
+				"Beskrivning" : null,
+				"Webbsida" : null
+			}
+		}
+	]
+}
