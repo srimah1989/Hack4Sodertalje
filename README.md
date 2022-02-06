@@ -29,11 +29,11 @@ Finally,
 
 ## Data Sources
 A multitude of data sources have been gathered for our hack. 
-1. Survey Results from Senior Population 
-2. Historical Temperature changes
-3. Demographics of the City
-4. Bath places in the City 
-5. Green spaces in the City 
+1. [Survey Results from Senior Population](./data/survey-results)
+2. [Historical Temperature changes](./data/stockholm-historical-temps-monthly-3)
+3. [Demographics of the City](./data/demographics-data)
+4. [Bath places in the City](./data/bath-places)
+5. [Green spaces in the City](./data/green-spaces-geojson-data)
 6.  
 
 
