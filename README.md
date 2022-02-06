@@ -13,10 +13,10 @@ It is an iterative tool, as it is used it will show which data sets are missing 
 
 
 
-## What we look for (change this subtitle)
+## Motivation
 
 
-PREPAREDNESS
+PREPAREDNESS (Visualisation and simulation)
 * Based on this we should have analyse the improvements necessary to existing infrastructures in Sodertalje municipality to provide "cool-down" spots to it's residents. 
 * Suggestions to increase resting spots under shades. 
 * Public air conditioned spaces.
@@ -24,7 +24,7 @@ PREPAREDNESS
 * Increasing public toilets and it's quality for people with difficutlies to feel welcomed on the city center (Instead of the current tin can in the middle of the city) 
 * Temperature and details of bath places.
 
-ALERT SYSTEM
+ALERT SYSTEM (Warning and information)
 * Early warning systems from solid scientific basis to forecast severness of hot weather during summer. 
 * Social media campigns to spread awareness of things to do on hot days.
 * Mark places having heat island effects. 
@@ -32,14 +32,13 @@ ALERT SYSTEM
 
 ## Our tool - Sodertalje's Heat Wave Alert System
 
-To understand our hack, one should first have a clear idea on how temperatures are calculated in a city. National climate centers generally install a sophisticated thermometer unit at a select location, usually near airport in bigger cities, to gather daily mean temperature readings. These readings don't consider the influence of surrounding structures on the temperature at that location and it will be that much difficult to predict the actual temperature impact at a discrete street level. 
+(http://currents.plos.org/disasters/files/2013/10/Heatwave-levels-600x285.png)
 
-For example, in the picture below, one can see 3 different temperature readings in different locations in a city. This indicates that the problems needs to be tackled at a much more discrete/granular level, for which, we don't have the technological architecture at this moment. 
+Temperatures varies greatly in a city. For example, in the picture below, one can see 3 different temperature readings in different locations in a city. This indicates that the problems needs to be tackled at a much more discrete/granular level, for which, we don't have the technological architecture at this moment. 
 
 ![Temperature changes are more granular](./photos-of-current-seats/UMD-heat+slide.png)
 
-
-During the first stage of the hack, we propose to collect granular (street-level) temperature data using any of the following methods to identify hot-spots at a granular street level. 
+During the first stage, we propose to collect granular (street-level) temperature data using any of the following methods to identify hot-spots at a granular street level. 
 1. Use satellite data to get granular (street-level) temperature data. 
 2. Install temperature sensors at different streets (this solution might not be cost-effecient)
 3. Distributed temperature collection using mobile phones (Some of current Mobile phones are equipped with temperature sensors)
@@ -49,22 +48,11 @@ Second half of our hack deals with identifying locations across Sodertalje munic
 2. Green-shaded regions 
 3. Public air-conditioned or bath spaces
 
+[Eskilstuna 26 juli 2014](https://www.smhi.se/polopoly_fs/1.136268.1528803536!/image/str%C3%A5lningstemperatur_Eskilstuna.jpg_gen/derivatives/Original_542px/image/str%C3%A5lningstemperatur_Eskilstuna.jpg)
+
 Finally, we bring everything together via:  
 * An **alert** system to forecast severness of hot weather at a street-level granularity based on temperature data collected. 
 * A location-based **messaging** system to suggest nearby "cool-down" spots.
-
-
-
-
-
-## Data sets used
-
-Regular street map
-
-
-Solar studies based on Södertälje’s “virtual city” 3D map can show when and where public spaces will be in the sun and the solar intensity. This allows us to predict the ambient temperature at any public space at any time of day or year.
-
-This combined with heat photos and sensors can tell us the actual temperatures, as well as why the temperatures are high or low. 
 
 
 
@@ -81,6 +69,19 @@ This includes distances between oases of rest, water, toilets, sheltered stops f
 ## Building and population data
 There is data on the buildings, their environmental classification, if not their heat resistance. Likewise we know where people are living, and within constraints of privacy their age and health status. Eventually the at-risk population can be simulated or contacted. 
 
+## Useful data sets
+
+* city map
+* dynamic shade map: Solar studies based on Södertälje’s “virtual city” 3D map can show when and where public spaces will be in the sun and the solar intensity. This allows us to predict the ambient temperature at any public space at any time of day or year. When combined with heat photos and sensors (as described above) we will in addition to current temperatures, also be able to tell the causes of temperature differences. 
+* weather forecast data
+* map of vegetation
+* public resting places
+* public transport
+* heat wave level 
+* vulnerable population data
+* building database
+* accessible air conditioned public buildings
+* public shelters, "ice boxes"
 
 
 ## Background and sources
@@ -93,10 +94,10 @@ A multitude of data sources have been gathered for our hack.
 3. [Demographics of the City](./data/demographics-data)
 4. [Bath places in the City](./data/bath-places)
 5. [Green spaces in the City](./data/green-spaces-geojson-data)
-6. [Svalkande miljöer viktiga när värmeböljor stressar svenska städer] Eskilstuna 26 juli 2014 [3]
+6. [Svalkande miljöer viktiga när värmeböljor stressar svenska städer](https://www.smhi.se/forskning/forskningsnyheter/svalkande-miljoer-viktiga-nar-varmeboljor-stressar-svenska-stader-1.136119) 
 
 
 ## References
 1. https://doi.org/10.1016/j.maturitas.2011.03.008
 2. https://www.vox.com/22557563/how-to-redesign-cities-for-heat-waves-climate-change
-3. https://www.smhi.se/forskning/forskningsnyheter/svalkande-miljoer-viktiga-nar-varmeboljor-stressar-svenska-stader-1.136119
+
