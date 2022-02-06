@@ -31,11 +31,5 @@ ALERT SYSTEM
 * An info system on places to go on hots with temprature on bath places. (We have that data on open data) And systems to detect nearby "cool-down" spots.
 
 
-## What data says??
-
-## Workflow
-
-## Build data system 
-
 ## Reference 
 [1] https://doi.org/10.1016/j.maturitas.2011.03.008
