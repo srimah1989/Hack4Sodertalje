@@ -3,7 +3,7 @@
 ## Problem statement 
 From elsewhere we know that extreme weather adversely affects vulnerable and excluded groups, while people with more available resources and better networks will do just fine. 
 
-Our focus here is the impact of heat waves on the vulnerable population, though it can be applied to other extremes, such as extreme cold, extreme precipitation, extreme wind, smoke from forest fires and the like. 
+**Our focus here is the impact of heat waves on the vulnerable population**, though it can be applied to other extremes, such as extreme cold, extreme precipitation, extreme wind, smoke from forest fires and the like. 
 
 The same groups are exposed: The sick, the elderly, the homeless, the poor. High energy prices this winter showed how, under wrong circumstances, the group of vulnerable people could grow larger than that. Södertälje is not a city characterised by extreme weather, nor will it be, but it is better prepared for some than for others. So let us turn up the heat.
 
