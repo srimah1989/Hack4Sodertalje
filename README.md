@@ -15,7 +15,6 @@ It is an iterative tool, as it is used it will show which data sets are missing 
 
 ## What we look for (change this subtitle)
 
-Adverse effects of heat waves on mortality among vulnerable group of population are well known. Heat waves in Sweden used to occur once in every 20 years in the past century. But this new millenium has given us a new climate challenge where it has occured 4 times since 2000. As suggested by the Swedish researchers from Umea extended hot days of 27 degree - 30 degrees for 3 consecutive days will increase the mortality and cardiovascular helth risk between 10 and 20 %[1]. Research suggests that effects of climate change will increase the occurance of heat waves and consecutive hot days during summer. This in turn will affect the elderly and people with cardiovascular diseases. 
 
 PREPAREDNESS
 * Based on this we should have analyse the improvements necessary to existing infrastructures in Sodertalje municipality to provide "cool-down" spots to it's residents. 
@@ -54,7 +53,13 @@ Finally, we bring everything together via:
 * An **alert** system to forecast severness of hot weather at a street-level granularity based on temperature data collected. 
 * A location-based **messaging** system to suggest nearby "cool-down" spots.
 
-## Data Sources
+
+
+
+## Background and sources
+Adverse effects of heat waves on mortality among vulnerable group of population are well known. Heat waves in Sweden used to occur once in every 20 years in the past century. But this new millenium has given us a new climate challenge where it has occured 4 times since 2000. As suggested by the Swedish researchers from Umea extended hot days of 27 degree - 30 degrees for 3 consecutive days will increase the mortality and cardiovascular health risk between 10 and 20% [1]. Research suggests that effects of climate change will increase the occurance of heat waves and consecutive hot days during summer. This in turn will affect the elderly and people with cardiovascular diseases. 
+
+
 A multitude of data sources have been gathered for our hack. 
 1. [Survey Results from Senior Population](./data/survey-results)
 2. [Historical Temperature changes](./data/stockholm-historical-temps-monthly-3)
@@ -64,14 +69,30 @@ A multitude of data sources have been gathered for our hack.
 6.  
 
 
-## Workflow - The Data Pipeline
+## Data sets used
+
+Regular street map
 
 
-## What data says?
+Solar studies based on Södertälje’s “virtual city” 3D map can show when and where public spaces will be in the sun and the solar intensity. This allows us to predict the ambient temperature at any public space at any time of day or year.
+
+This combined with heat photos and sensors can tell us the actual temperatures, as well as why the temperatures are high or low. 
 
 
 
-## Outcome of the Hack
+
+## The Differential Engine (scenario simulation)
+The tool will take both real time & predicted weather data, as well as simulated weather data. 
+
+It can save snapshots of geographical data set to see urban climate of current environment compared with e.g. Södertälje 2022, or with proposed new features (e.g. turning a road into an allée, or the shades and reflections from a new building).
+
+## The path of life
+In addition to the location of cool-down spots and heat island, the tool can later evaluate available paths and their relative (dis)comfort, including for people with limited mobility. 
+
+This includes distances between oases of rest, water, toilets, sheltered stops for public transport (we assume SL will in the future provide buses with air conditioning). 
+
+## Building and population data
+There is data on the buildings, their environmental classification, if not their heat resistance. Likewise we know where people are living, and within constraints of privacy their age and health status. Eventually the at-risk population can be simulated or contacted. 
 
 
 ## Reference
