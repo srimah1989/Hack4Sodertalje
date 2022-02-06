@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bac06b366e89463fa274b984ccae7dbf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bac06b366e89463fa274b984ccae7dbf" ></div>
+        
+</body>
+<script>    
+    
+            var map_bac06b366e89463fa274b984ccae7dbf = L.map(
+                "map_bac06b366e89463fa274b984ccae7dbf",
+                {
+                    center: [59.1978, 17.6202],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c252c2d3a0d341b483cd8d71d1b3fee5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var marker_a1d6a1c587164e0dbaeffd35f801fce3 = L.marker(
+                [59.19221131345052, 17.62844543917043],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_508b3139bde14b9e9ce7ad561b610b66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1d6a1c587164e0dbaeffd35f801fce3.setIcon(icon_508b3139bde14b9e9ce7ad561b610b66);
+        
+    
+        var popup_e8f6529972e342ea8e5614f3a219dc95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb4d091935d1456893129f3ad713d944 = $(`<div id="html_bb4d091935d1456893129f3ad713d944" style="width: 100.0%; height: 100.0%;">Stadsparken</div>`)[0];
+            popup_e8f6529972e342ea8e5614f3a219dc95.setContent(html_bb4d091935d1456893129f3ad713d944);
+        
+
+        marker_a1d6a1c587164e0dbaeffd35f801fce3.bindPopup(popup_e8f6529972e342ea8e5614f3a219dc95)
+        ;
+
+        
+    
+    
+            var marker_537855824ba44c65b734c352e8630e3a = L.marker(
+                [59.187016156069035, 17.620985192394333],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_52eb3769a203431a9f9e5b8e12962ce5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_537855824ba44c65b734c352e8630e3a.setIcon(icon_52eb3769a203431a9f9e5b8e12962ce5);
+        
+    
+        var popup_e107fba497664ac99038c07647b1d77a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05be495c41fa4dc2bbd312e1a5e10b3a = $(`<div id="html_05be495c41fa4dc2bbd312e1a5e10b3a" style="width: 100.0%; height: 100.0%;">Mariekällravinen</div>`)[0];
+            popup_e107fba497664ac99038c07647b1d77a.setContent(html_05be495c41fa4dc2bbd312e1a5e10b3a);
+        
+
+        marker_537855824ba44c65b734c352e8630e3a.bindPopup(popup_e107fba497664ac99038c07647b1d77a)
+        ;
+
+        
+    
+    
+            var marker_055f16e2f4e34f06ab481c9bd2365df3 = L.marker(
+                [59.19716085043615, 17.619570524838995],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_43c6f7b3ea4a4c6eb3b2329997258390 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_055f16e2f4e34f06ab481c9bd2365df3.setIcon(icon_43c6f7b3ea4a4c6eb3b2329997258390);
+        
+    
+        var popup_e169cca2a91642b7af9f3e5187868c4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e47e5c2526747ec99ff2f108dd16d1c = $(`<div id="html_1e47e5c2526747ec99ff2f108dd16d1c" style="width: 100.0%; height: 100.0%;">Dalparken</div>`)[0];
+            popup_e169cca2a91642b7af9f3e5187868c4d.setContent(html_1e47e5c2526747ec99ff2f108dd16d1c);
+        
+
+        marker_055f16e2f4e34f06ab481c9bd2365df3.bindPopup(popup_e169cca2a91642b7af9f3e5187868c4d)
+        ;
+
+        
+    
+    
+            var marker_b2a326a76695438a8d4ca38c6787a86e = L.marker(
+                [59.19189406207629, 17.622317881700088],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_2e30e7e5db6d48c18d5739492de80d04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2a326a76695438a8d4ca38c6787a86e.setIcon(icon_2e30e7e5db6d48c18d5739492de80d04);
+        
+    
+        var popup_b7901be0e9c54581847bf04a3463f894 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9279109bc42d44b081f11b9d8418ec9c = $(`<div id="html_9279109bc42d44b081f11b9d8418ec9c" style="width: 100.0%; height: 100.0%;">Badparken</div>`)[0];
+            popup_b7901be0e9c54581847bf04a3463f894.setContent(html_9279109bc42d44b081f11b9d8418ec9c);
+        
+
+        marker_b2a326a76695438a8d4ca38c6787a86e.bindPopup(popup_b7901be0e9c54581847bf04a3463f894)
+        ;
+
+        
+    
+    
+            var marker_bb7c9f21f176411c9e63574159ee7fd0 = L.marker(
+                [59.175756764698974, 17.603286936572175],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_e00bfaf0494b4fcba4a89307248d1304 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb7c9f21f176411c9e63574159ee7fd0.setIcon(icon_e00bfaf0494b4fcba4a89307248d1304);
+        
+    
+        var popup_be4cdebb2cbf431594def612a6ef47da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_969298f4d87a464e9e3028295b4f73f1 = $(`<div id="html_969298f4d87a464e9e3028295b4f73f1" style="width: 100.0%; height: 100.0%;">Hovsjöparken</div>`)[0];
+            popup_be4cdebb2cbf431594def612a6ef47da.setContent(html_969298f4d87a464e9e3028295b4f73f1);
+        
+
+        marker_bb7c9f21f176411c9e63574159ee7fd0.bindPopup(popup_be4cdebb2cbf431594def612a6ef47da)
+        ;
+
+        
+    
+    
+            var marker_c28e3763c6f2474487d1fd68c0a3cddb = L.marker(
+                [59.192992421398245, 17.66632179872564],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_307930ea7b394c0ab8cf7c318288665f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c28e3763c6f2474487d1fd68c0a3cddb.setIcon(icon_307930ea7b394c0ab8cf7c318288665f);
+        
+    
+        var popup_a3a8046499a64409b9348c037bf0149e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d82e30c76a3a4b9fb2ff994fb805b668 = $(`<div id="html_d82e30c76a3a4b9fb2ff994fb805b668" style="width: 100.0%; height: 100.0%;">Fornhöjdsparken</div>`)[0];
+            popup_a3a8046499a64409b9348c037bf0149e.setContent(html_d82e30c76a3a4b9fb2ff994fb805b668);
+        
+
+        marker_c28e3763c6f2474487d1fd68c0a3cddb.bindPopup(popup_a3a8046499a64409b9348c037bf0149e)
+        ;
+
+        
+    
+    
+            var marker_972554ffd1c64f8c83595ae339af7f3f = L.marker(
+                [59.15060301601802, 17.656356518367353],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_90f09bb2d923437a93029880f65a8ed0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_972554ffd1c64f8c83595ae339af7f3f.setIcon(icon_90f09bb2d923437a93029880f65a8ed0);
+        
+    
+        var popup_49d748f78aea483ea4ce280566befc89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9fd9b563b7a49b7ad85f06e51a42e2b = $(`<div id="html_a9fd9b563b7a49b7ad85f06e51a42e2b" style="width: 100.0%; height: 100.0%;">Trollsjön</div>`)[0];
+            popup_49d748f78aea483ea4ce280566befc89.setContent(html_a9fd9b563b7a49b7ad85f06e51a42e2b);
+        
+
+        marker_972554ffd1c64f8c83595ae339af7f3f.bindPopup(popup_49d748f78aea483ea4ce280566befc89)
+        ;
+
+        
+    
+    
+            var marker_387f2eda82274da8ba478575d401acad = L.marker(
+                [59.19216632722917, 17.579849100297448],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_9b4dde2f6c4a486d8cec2ca1e28d3da1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_387f2eda82274da8ba478575d401acad.setIcon(icon_9b4dde2f6c4a486d8cec2ca1e28d3da1);
+        
+    
+        var popup_b217a9caa09f40c591b5ef3f4cc1c314 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f5e6d3f89a74a5a85047d7867f72a72 = $(`<div id="html_8f5e6d3f89a74a5a85047d7867f72a72" style="width: 100.0%; height: 100.0%;">Genetafältet</div>`)[0];
+            popup_b217a9caa09f40c591b5ef3f4cc1c314.setContent(html_8f5e6d3f89a74a5a85047d7867f72a72);
+        
+
+        marker_387f2eda82274da8ba478575d401acad.bindPopup(popup_b217a9caa09f40c591b5ef3f4cc1c314)
+        ;
+
+        
+    
+    
+            var marker_8766bdb01f4044569cd5d9cd25c44756 = L.marker(
+                [59.201120135577575, 17.60076981197853],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_2e2fc3cb52e94c58b83a9759a2f5caf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8766bdb01f4044569cd5d9cd25c44756.setIcon(icon_2e2fc3cb52e94c58b83a9759a2f5caf2);
+        
+    
+        var popup_4d18318905c24270b212bb6126d61383 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_141ec36a781d45b5a4d5222408d54b97 = $(`<div id="html_141ec36a781d45b5a4d5222408d54b97" style="width: 100.0%; height: 100.0%;">Bårstafältet</div>`)[0];
+            popup_4d18318905c24270b212bb6126d61383.setContent(html_141ec36a781d45b5a4d5222408d54b97);
+        
+
+        marker_8766bdb01f4044569cd5d9cd25c44756.bindPopup(popup_4d18318905c24270b212bb6126d61383)
+        ;
+
+        
+    
+    
+            var marker_a45687f13a784538b1bd8decc35fcbab = L.marker(
+                [59.15524756119911, 17.66107798863425],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_a62a771b3d8448fdb4fac44e8c4881f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a45687f13a784538b1bd8decc35fcbab.setIcon(icon_a62a771b3d8448fdb4fac44e8c4881f9);
+        
+    
+        var popup_308a393e39b64249b3a94fca12da617c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13f56b78d6784812beaed98c7ef16dd3 = $(`<div id="html_13f56b78d6784812beaed98c7ef16dd3" style="width: 100.0%; height: 100.0%;">Pershagens strandpromenad </div>`)[0];
+            popup_308a393e39b64249b3a94fca12da617c.setContent(html_13f56b78d6784812beaed98c7ef16dd3);
+        
+
+        marker_a45687f13a784538b1bd8decc35fcbab.bindPopup(popup_308a393e39b64249b3a94fca12da617c)
+        ;
+
+        
+    
+    
+            var marker_942fb265ccdc472ebacb15af1d530a07 = L.marker(
+                [59.19851065929771, 17.624910608132144],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_ca9f7a3769c14495af1aeb8b98a839eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_942fb265ccdc472ebacb15af1d530a07.setIcon(icon_ca9f7a3769c14495af1aeb8b98a839eb);
+        
+    
+        var popup_6394756beaed460eabd264a1765b6815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88c2f8fae51b40538f2bcf4f38197818 = $(`<div id="html_88c2f8fae51b40538f2bcf4f38197818" style="width: 100.0%; height: 100.0%;">Turingelunden</div>`)[0];
+            popup_6394756beaed460eabd264a1765b6815.setContent(html_88c2f8fae51b40538f2bcf4f38197818);
+        
+
+        marker_942fb265ccdc472ebacb15af1d530a07.bindPopup(popup_6394756beaed460eabd264a1765b6815)
+        ;
+
+        
+    
+    
+            var marker_63f03d0d0aa64bb0a6be4144f060a454 = L.marker(
+                [59.08897277806398, 17.56518670704676],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_c8fe8f8565eb4dbd81d85764509cf5a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_63f03d0d0aa64bb0a6be4144f060a454.setIcon(icon_c8fe8f8565eb4dbd81d85764509cf5a8);
+        
+    
+        var popup_c5eb83a6ed14487886d065910e438a91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eba1145e9a104e84abd66134c79d60b5 = $(`<div id="html_eba1145e9a104e84abd66134c79d60b5" style="width: 100.0%; height: 100.0%;">Järna torg </div>`)[0];
+            popup_c5eb83a6ed14487886d065910e438a91.setContent(html_eba1145e9a104e84abd66134c79d60b5);
+        
+
+        marker_63f03d0d0aa64bb0a6be4144f060a454.bindPopup(popup_c5eb83a6ed14487886d065910e438a91)
+        ;
+
+        
+    
+    
+            var marker_69d662badfe844fa8b805335566fe0bf = L.marker(
+                [59.19811114292234, 17.630591267534186],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_8702ad747d934ae69303d5ab04a6f111 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69d662badfe844fa8b805335566fe0bf.setIcon(icon_8702ad747d934ae69303d5ab04a6f111);
+        
+    
+        var popup_5a69aa51cbc14bf39a42a4824b5bbb07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb7dd3068b66477ca9b352d4402cf291 = $(`<div id="html_bb7dd3068b66477ca9b352d4402cf291" style="width: 100.0%; height: 100.0%;">Lagmansparken</div>`)[0];
+            popup_5a69aa51cbc14bf39a42a4824b5bbb07.setContent(html_bb7dd3068b66477ca9b352d4402cf291);
+        
+
+        marker_69d662badfe844fa8b805335566fe0bf.bindPopup(popup_5a69aa51cbc14bf39a42a4824b5bbb07)
+        ;
+
+        
+    
+    
+            var marker_f439a9c25f99468283bfe3d586f0b555 = L.marker(
+                [59.19451515237569, 17.630849906648685],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_857346b5b40c4b33ad578dab4fa98bde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f439a9c25f99468283bfe3d586f0b555.setIcon(icon_857346b5b40c4b33ad578dab4fa98bde);
+        
+    
+        var popup_0dcea37365304017baf45d700cd67099 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d92852add1f431ab42d73810128ad6e = $(`<div id="html_6d92852add1f431ab42d73810128ad6e" style="width: 100.0%; height: 100.0%;">Vänortsparken</div>`)[0];
+            popup_0dcea37365304017baf45d700cd67099.setContent(html_6d92852add1f431ab42d73810128ad6e);
+        
+
+        marker_f439a9c25f99468283bfe3d586f0b555.bindPopup(popup_0dcea37365304017baf45d700cd67099)
+        ;
+
+        
+    
+    
+            var marker_d68c7707232649a5a7ef800cc1555a8b = L.marker(
+                [59.19186622223361, 17.629765608405794],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_205a2b3468be40388997eac1811d30ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d68c7707232649a5a7ef800cc1555a8b.setIcon(icon_205a2b3468be40388997eac1811d30ad);
+        
+    
+        var popup_88b62edbed304164bda69a9288059355 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fd542dd14594d89ab6fc73ed5231134 = $(`<div id="html_9fd542dd14594d89ab6fc73ed5231134" style="width: 100.0%; height: 100.0%;">Borgmästarparken</div>`)[0];
+            popup_88b62edbed304164bda69a9288059355.setContent(html_9fd542dd14594d89ab6fc73ed5231134);
+        
+
+        marker_d68c7707232649a5a7ef800cc1555a8b.bindPopup(popup_88b62edbed304164bda69a9288059355)
+        ;
+
+        
+    
+    
+            var marker_2704c987608a4241a1ff93af46e2562b = L.marker(
+                [59.09244391905498, 17.56492909369892],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_7f829744d886469083e4f69b6385d817 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2704c987608a4241a1ff93af46e2562b.setIcon(icon_7f829744d886469083e4f69b6385d817);
+        
+    
+        var popup_68b106bf48224be8b2dd830c5ba5f420 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97bda0268e6743469a4de10ca8862d87 = $(`<div id="html_97bda0268e6743469a4de10ca8862d87" style="width: 100.0%; height: 100.0%;">Stinsträdgården</div>`)[0];
+            popup_68b106bf48224be8b2dd830c5ba5f420.setContent(html_97bda0268e6743469a4de10ca8862d87);
+        
+
+        marker_2704c987608a4241a1ff93af46e2562b.bindPopup(popup_68b106bf48224be8b2dd830c5ba5f420)
+        ;
+
+        
+    
+    
+            var marker_1113affe3a00436cbdde2dcb8b782ab6 = L.marker(
+                [59.20279832214813, 17.627540249872514],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_ecc0a910d58a435db426da6edf467cde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1113affe3a00436cbdde2dcb8b782ab6.setIcon(icon_ecc0a910d58a435db426da6edf467cde);
+        
+    
+        var popup_92615ac800fe4c0191d031eb2f82f8d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aee6de2300846959b3f00f1fc3b3a86 = $(`<div id="html_8aee6de2300846959b3f00f1fc3b3a86" style="width: 100.0%; height: 100.0%;">Tobaksparken</div>`)[0];
+            popup_92615ac800fe4c0191d031eb2f82f8d2.setContent(html_8aee6de2300846959b3f00f1fc3b3a86);
+        
+
+        marker_1113affe3a00436cbdde2dcb8b782ab6.bindPopup(popup_92615ac800fe4c0191d031eb2f82f8d2)
+        ;
+
+        
+    
+    
+            var marker_7ff321ec44d14494afa627a635d1f0ea = L.marker(
+                [59.205733137317054, 17.62636082282174],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_fb6c2dda9b8c4f35ba74be9b8cc05fba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ff321ec44d14494afa627a635d1f0ea.setIcon(icon_fb6c2dda9b8c4f35ba74be9b8cc05fba);
+        
+    
+        var popup_bbf9aae4212c442890cef6db1119f0a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf23d538e8f1488184bd0430035d1ec4 = $(`<div id="html_cf23d538e8f1488184bd0430035d1ec4" style="width: 100.0%; height: 100.0%;">Mälareparken</div>`)[0];
+            popup_bbf9aae4212c442890cef6db1119f0a6.setContent(html_cf23d538e8f1488184bd0430035d1ec4);
+        
+
+        marker_7ff321ec44d14494afa627a635d1f0ea.bindPopup(popup_bbf9aae4212c442890cef6db1119f0a6)
+        ;
+
+        
+    
+    
+            var marker_034f996cf11043488c88920100fd8148 = L.marker(
+                [59.21324820225977, 17.633568566807572],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_c142fbb5d766486db6a859e495b3e9e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_034f996cf11043488c88920100fd8148.setIcon(icon_c142fbb5d766486db6a859e495b3e9e6);
+        
+    
+        var popup_48acecbc113149f8ac317df71dad0598 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a887919beefe45a5841423667c71b97c = $(`<div id="html_a887919beefe45a5841423667c71b97c" style="width: 100.0%; height: 100.0%;">Brunnsängsparken</div>`)[0];
+            popup_48acecbc113149f8ac317df71dad0598.setContent(html_a887919beefe45a5841423667c71b97c);
+        
+
+        marker_034f996cf11043488c88920100fd8148.bindPopup(popup_48acecbc113149f8ac317df71dad0598)
+        ;
+
+        
+    
+    
+            var marker_8065409298ef4255b76caac67866048a = L.marker(
+                [59.200495129284924, 17.6292865608932],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_fa101d8f5c8d4b14a08ff19116205034 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8065409298ef4255b76caac67866048a.setIcon(icon_fa101d8f5c8d4b14a08ff19116205034);
+        
+    
+        var popup_940bbd0c5d5e4835a9370a0f2edb81a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26e4ce08ca234d108360b198583d5603 = $(`<div id="html_26e4ce08ca234d108360b198583d5603" style="width: 100.0%; height: 100.0%;">Zacharias Anthelius park</div>`)[0];
+            popup_940bbd0c5d5e4835a9370a0f2edb81a9.setContent(html_26e4ce08ca234d108360b198583d5603);
+        
+
+        marker_8065409298ef4255b76caac67866048a.bindPopup(popup_940bbd0c5d5e4835a9370a0f2edb81a9)
+        ;
+
+        
+    
+    
+            var marker_725e25f2f7a04898a866ef114ef7d435 = L.marker(
+                [59.200489184339844, 17.619826538413907],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_aef94f621d5b4ab89f0a5def207eecf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_725e25f2f7a04898a866ef114ef7d435.setIcon(icon_aef94f621d5b4ab89f0a5def207eecf3);
+        
+    
+        var popup_8459cfdae343490bbe16fb42694e1020 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3af1a601b75e4905a5b6c85d47a0691e = $(`<div id="html_3af1a601b75e4905a5b6c85d47a0691e" style="width: 100.0%; height: 100.0%;">Kvarnlunden</div>`)[0];
+            popup_8459cfdae343490bbe16fb42694e1020.setContent(html_3af1a601b75e4905a5b6c85d47a0691e);
+        
+
+        marker_725e25f2f7a04898a866ef114ef7d435.bindPopup(popup_8459cfdae343490bbe16fb42694e1020)
+        ;
+
+        
+    
+    
+            var marker_07311cbf6954478a90905a0ed51295df = L.marker(
+                [59.181592185572576, 17.659824140520243],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_52fb156247c14825a17faa0f0c5fdda6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_07311cbf6954478a90905a0ed51295df.setIcon(icon_52fb156247c14825a17faa0f0c5fdda6);
+        
+    
+        var popup_eb2a89f9a42c4cfc8f851c885f9f6c65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdadcb6dcc76431b9f4af75ea4ac4bd4 = $(`<div id="html_bdadcb6dcc76431b9f4af75ea4ac4bd4" style="width: 100.0%; height: 100.0%;">Korpuddsparkens strandpromenad</div>`)[0];
+            popup_eb2a89f9a42c4cfc8f851c885f9f6c65.setContent(html_bdadcb6dcc76431b9f4af75ea4ac4bd4);
+        
+
+        marker_07311cbf6954478a90905a0ed51295df.bindPopup(popup_eb2a89f9a42c4cfc8f851c885f9f6c65)
+        ;
+
+        
+    
+    
+            var marker_d35a0a3368794e6e8634b7734f182704 = L.marker(
+                [59.192758225597416, 17.626144801891005],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_e0a623eadb8c48c6bf34ff03f2e497bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d35a0a3368794e6e8634b7734f182704.setIcon(icon_e0a623eadb8c48c6bf34ff03f2e497bf);
+        
+    
+        var popup_2ae8bb12c65c4606ae20e5cd4ff73a6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_502d473795874902a2cb9c66e51b3958 = $(`<div id="html_502d473795874902a2cb9c66e51b3958" style="width: 100.0%; height: 100.0%;">Järnvägsparken</div>`)[0];
+            popup_2ae8bb12c65c4606ae20e5cd4ff73a6f.setContent(html_502d473795874902a2cb9c66e51b3958);
+        
+
+        marker_d35a0a3368794e6e8634b7734f182704.bindPopup(popup_2ae8bb12c65c4606ae20e5cd4ff73a6f)
+        ;
+
+        
+    
+    
+            var marker_692134e35bd0464ca87023b498c68d98 = L.marker(
+                [59.187465462350524, 17.657125175276363],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_b54eb559df44453b85d6c70afadd70eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_692134e35bd0464ca87023b498c68d98.setIcon(icon_b54eb559df44453b85d6c70afadd70eb);
+        
+    
+        var popup_2ca3a14d18754b5686f8d4e9ac8fe4de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00c0a88117074a8b8836335c977732d9 = $(`<div id="html_00c0a88117074a8b8836335c977732d9" style="width: 100.0%; height: 100.0%;">Centralparken</div>`)[0];
+            popup_2ca3a14d18754b5686f8d4e9ac8fe4de.setContent(html_00c0a88117074a8b8836335c977732d9);
+        
+
+        marker_692134e35bd0464ca87023b498c68d98.bindPopup(popup_2ca3a14d18754b5686f8d4e9ac8fe4de)
+        ;
+
+        
+    
+    
+            var marker_b22b287e1fbd43f0abdbffbf5bff34df = L.marker(
+                [59.20249414088661, 17.638173132568152],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_dd74afff05954cbcb7cab57e5ca26681 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b22b287e1fbd43f0abdbffbf5bff34df.setIcon(icon_dd74afff05954cbcb7cab57e5ca26681);
+        
+    
+        var popup_55eaf9ef36b3492786904c77f71ba82e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a07946457a604a3ab00199c6020f2cd9 = $(`<div id="html_a07946457a604a3ab00199c6020f2cd9" style="width: 100.0%; height: 100.0%;">Hagaparken</div>`)[0];
+            popup_55eaf9ef36b3492786904c77f71ba82e.setContent(html_a07946457a604a3ab00199c6020f2cd9);
+        
+
+        marker_b22b287e1fbd43f0abdbffbf5bff34df.bindPopup(popup_55eaf9ef36b3492786904c77f71ba82e)
+        ;
+
+        
+    
+    
+            var marker_16541b934e8d41e4963ed94085a2b7f3 = L.marker(
+                [59.202173670723894, 17.636718407073765],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_f598f46171f644b29de07fa13e9c21b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_16541b934e8d41e4963ed94085a2b7f3.setIcon(icon_f598f46171f644b29de07fa13e9c21b2);
+        
+    
+        var popup_e498d17e595a4ff3b4cc279fb2c93fb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cec50074a8d4108858a8129bbd7b4e4 = $(`<div id="html_2cec50074a8d4108858a8129bbd7b4e4" style="width: 100.0%; height: 100.0%;">Hasse Tellemars plats</div>`)[0];
+            popup_e498d17e595a4ff3b4cc279fb2c93fb2.setContent(html_2cec50074a8d4108858a8129bbd7b4e4);
+        
+
+        marker_16541b934e8d41e4963ed94085a2b7f3.bindPopup(popup_e498d17e595a4ff3b4cc279fb2c93fb2)
+        ;
+
+        
+    
+    
+            var marker_befe9b04df38474ea0a37682c724ed78 = L.marker(
+                [59.08559003270701, 17.566965183463935],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_049597c32d0344889bda6e50522b8464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_befe9b04df38474ea0a37682c724ed78.setIcon(icon_049597c32d0344889bda6e50522b8464);
+        
+    
+        var popup_7dfd5a43014d401c905c6052f7fff964 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f16f8aa2abe43358e38b44dc54b9eed = $(`<div id="html_2f16f8aa2abe43358e38b44dc54b9eed" style="width: 100.0%; height: 100.0%;">Blåklocksstigens park</div>`)[0];
+            popup_7dfd5a43014d401c905c6052f7fff964.setContent(html_2f16f8aa2abe43358e38b44dc54b9eed);
+        
+
+        marker_befe9b04df38474ea0a37682c724ed78.bindPopup(popup_7dfd5a43014d401c905c6052f7fff964)
+        ;
+
+        
+    
+    
+            var marker_b4cc0a3836a04ae9b31ee227b84da5d6 = L.marker(
+                [59.19239042501008, 17.626410265251092],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_fb94c6957eb5481cb0015516399a44bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b4cc0a3836a04ae9b31ee227b84da5d6.setIcon(icon_fb94c6957eb5481cb0015516399a44bb);
+        
+    
+        var popup_d0577b85019f48dd997a4cc039f41b1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c1b7d55c2da46798d6d80b428a547d2 = $(`<div id="html_8c1b7d55c2da46798d6d80b428a547d2" style="width: 100.0%; height: 100.0%;">Södertälje C pendeltågsstation</div>`)[0];
+            popup_d0577b85019f48dd997a4cc039f41b1b.setContent(html_8c1b7d55c2da46798d6d80b428a547d2);
+        
+
+        marker_b4cc0a3836a04ae9b31ee227b84da5d6.bindPopup(popup_d0577b85019f48dd997a4cc039f41b1b)
+        ;
+
+        
+    
+    
+            var marker_a4d05c9eb2624d80803fcda3a522f88c = L.marker(
+                [59.197323763661416, 17.62645930179187],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_91eb5c9913314d8d8a88f75c3a746eba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4d05c9eb2624d80803fcda3a522f88c.setIcon(icon_91eb5c9913314d8d8a88f75c3a746eba);
+        
+    
+        var popup_6fea6dea01624ad9bec57bec184580d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ba3b214ac364fbbb1018d99a295169e = $(`<div id="html_5ba3b214ac364fbbb1018d99a295169e" style="width: 100.0%; height: 100.0%;">Gågatan Stora Torget</div>`)[0];
+            popup_6fea6dea01624ad9bec57bec184580d2.setContent(html_5ba3b214ac364fbbb1018d99a295169e);
+        
+
+        marker_a4d05c9eb2624d80803fcda3a522f88c.bindPopup(popup_6fea6dea01624ad9bec57bec184580d2)
+        ;
+
+        
+    
+    
+            var marker_6c4ba523378b4feab8cb2336bacc749d = L.marker(
+                [59.138487119925315, 17.670249699680486],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_024b4c7e4cf042ac82c905daa05fabe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c4ba523378b4feab8cb2336bacc749d.setIcon(icon_024b4c7e4cf042ac82c905daa05fabe9);
+        
+    
+        var popup_7cb57e3994dc45adad305b3d52d6976a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c04f0b8ec9544c18c7d47e9ce079d6e = $(`<div id="html_7c04f0b8ec9544c18c7d47e9ce079d6e" style="width: 100.0%; height: 100.0%;">Öbacken-Bränninge naturreservat</div>`)[0];
+            popup_7cb57e3994dc45adad305b3d52d6976a.setContent(html_7c04f0b8ec9544c18c7d47e9ce079d6e);
+        
+
+        marker_6c4ba523378b4feab8cb2336bacc749d.bindPopup(popup_7cb57e3994dc45adad305b3d52d6976a)
+        ;
+
+        
+    
+    
+            var marker_1a28a83e9ec44cc290e07f51203e5572 = L.marker(
+                [58.966553541097134, 17.653066962877954],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_4d95f47d15dc42c88fbb04897f7b160c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a28a83e9ec44cc290e07f51203e5572.setIcon(icon_4d95f47d15dc42c88fbb04897f7b160c);
+        
+    
+        var popup_84a58236eb4e4312841dbc3b889c93b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_820caa394cf541a98684da2ee612e99c = $(`<div id="html_820caa394cf541a98684da2ee612e99c" style="width: 100.0%; height: 100.0%;">Slessbergets naturreservat</div>`)[0];
+            popup_84a58236eb4e4312841dbc3b889c93b3.setContent(html_820caa394cf541a98684da2ee612e99c);
+        
+
+        marker_1a28a83e9ec44cc290e07f51203e5572.bindPopup(popup_84a58236eb4e4312841dbc3b889c93b3)
+        ;
+
+        
+    
+    
+            var marker_860e997d92ff4f5fbe8c918bbaebec10 = L.marker(
+                [59.082432101945315, 17.570119662487777],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_52c3f878ec4e48c1ab64aa1a31024a67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_860e997d92ff4f5fbe8c918bbaebec10.setIcon(icon_52c3f878ec4e48c1ab64aa1a31024a67);
+        
+    
+        var popup_e359cd6121e54222bae4233ea799ccef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d83936782afa49df839da4f38cda2a06 = $(`<div id="html_d83936782afa49df839da4f38cda2a06" style="width: 100.0%; height: 100.0%;">Moraåns dalgång naturreservat</div>`)[0];
+            popup_e359cd6121e54222bae4233ea799ccef.setContent(html_d83936782afa49df839da4f38cda2a06);
+        
+
+        marker_860e997d92ff4f5fbe8c918bbaebec10.bindPopup(popup_e359cd6121e54222bae4233ea799ccef)
+        ;
+
+        
+    
+    
+            var marker_988732d077364e57a2584ea6174b65b2 = L.marker(
+                [58.95037682617673, 17.649276667687477],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_87e7371833d94329a48173a76ccd6aad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_988732d077364e57a2584ea6174b65b2.setIcon(icon_87e7371833d94329a48173a76ccd6aad);
+        
+    
+        var popup_5bc94cd9db164ee2ab89fb026822ead5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8494e8792fa47648e845b7bd4ef0a1f = $(`<div id="html_b8494e8792fa47648e845b7bd4ef0a1f" style="width: 100.0%; height: 100.0%;">Kålsö naturreservat</div>`)[0];
+            popup_5bc94cd9db164ee2ab89fb026822ead5.setContent(html_b8494e8792fa47648e845b7bd4ef0a1f);
+        
+
+        marker_988732d077364e57a2584ea6174b65b2.bindPopup(popup_5bc94cd9db164ee2ab89fb026822ead5)
+        ;
+
+        
+    
+    
+            var marker_4b0c636540504a2b981cbe75fc4e60ef = L.marker(
+                [59.250856891738536, 17.394029203820903],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_ee057a0542884680b963703c119a1c16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4b0c636540504a2b981cbe75fc4e60ef.setIcon(icon_ee057a0542884680b963703c119a1c16);
+        
+    
+        var popup_f6052b9ca8474d6bb75efa819b673dd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8236144caabb4e1182177a51feab2f04 = $(`<div id="html_8236144caabb4e1182177a51feab2f04" style="width: 100.0%; height: 100.0%;">Parkudden-Lövsta naturreservat</div>`)[0];
+            popup_f6052b9ca8474d6bb75efa819b673dd7.setContent(html_8236144caabb4e1182177a51feab2f04);
+        
+
+        marker_4b0c636540504a2b981cbe75fc4e60ef.bindPopup(popup_f6052b9ca8474d6bb75efa819b673dd7)
+        ;
+
+        
+    
+    
+            var marker_cf8ad30c2d274872bb82ab097add7248 = L.marker(
+                [59.0470919958438, 17.625150890259935],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_a17f374e0d7544d3aca7f361af4225bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf8ad30c2d274872bb82ab097add7248.setIcon(icon_a17f374e0d7544d3aca7f361af4225bd);
+        
+    
+        var popup_da8a7f7320244757bce0605febb7667b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b7c39b74ed8433a947897107df9a773 = $(`<div id="html_5b7c39b74ed8433a947897107df9a773" style="width: 100.0%; height: 100.0%;">Yttereneby naturreservat</div>`)[0];
+            popup_da8a7f7320244757bce0605febb7667b.setContent(html_5b7c39b74ed8433a947897107df9a773);
+        
+
+        marker_cf8ad30c2d274872bb82ab097add7248.bindPopup(popup_da8a7f7320244757bce0605febb7667b)
+        ;
+
+        
+    
+    
+            var marker_9c67836475884b59afe6d8abfc735858 = L.marker(
+                [59.23220707012237, 17.609229866695085],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_ea150e20da9a4911ba0e3c9e18bacf32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c67836475884b59afe6d8abfc735858.setIcon(icon_ea150e20da9a4911ba0e3c9e18bacf32);
+        
+    
+        var popup_f4e345dba2e4469a94f2ff5bf469d132 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89f488ac6a4f4b558d423cd9c73e2643 = $(`<div id="html_89f488ac6a4f4b558d423cd9c73e2643" style="width: 100.0%; height: 100.0%;">Talbyskogens naturreservat</div>`)[0];
+            popup_f4e345dba2e4469a94f2ff5bf469d132.setContent(html_89f488ac6a4f4b558d423cd9c73e2643);
+        
+
+        marker_9c67836475884b59afe6d8abfc735858.bindPopup(popup_f4e345dba2e4469a94f2ff5bf469d132)
+        ;
+
+        
+    
+    
+            var marker_263604ddce1a4e2ebaf82df867036381 = L.marker(
+                [58.99408100704079, 17.45604545520053],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_bd21a69e5bb04825a800ee41ac9d87b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_263604ddce1a4e2ebaf82df867036381.setIcon(icon_bd21a69e5bb04825a800ee41ac9d87b8);
+        
+    
+        var popup_e0100797c2c54ac98a3056dff3cb9863 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d63f8166e84d421c90bbd28e46ee3daa = $(`<div id="html_d63f8166e84d421c90bbd28e46ee3daa" style="width: 100.0%; height: 100.0%;">Grottbergets naturreservat</div>`)[0];
+            popup_e0100797c2c54ac98a3056dff3cb9863.setContent(html_d63f8166e84d421c90bbd28e46ee3daa);
+        
+
+        marker_263604ddce1a4e2ebaf82df867036381.bindPopup(popup_e0100797c2c54ac98a3056dff3cb9863)
+        ;
+
+        
+    
+    
+            var marker_03a578785bdb489d9bc10213860356ce = L.marker(
+                [59.23202166799331, 17.511761250454253],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_fcb633255bcf445a8c92dc5dd59cd662 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_03a578785bdb489d9bc10213860356ce.setIcon(icon_fcb633255bcf445a8c92dc5dd59cd662);
+        
+    
+        var popup_dbc760f8d59e4acb8e3f3edb1d611523 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5460304287fa4297a5c53adcf8e648f6 = $(`<div id="html_5460304287fa4297a5c53adcf8e648f6" style="width: 100.0%; height: 100.0%;">Bårsjöns naturreservat</div>`)[0];
+            popup_dbc760f8d59e4acb8e3f3edb1d611523.setContent(html_5460304287fa4297a5c53adcf8e648f6);
+        
+
+        marker_03a578785bdb489d9bc10213860356ce.bindPopup(popup_dbc760f8d59e4acb8e3f3edb1d611523)
+        ;
+
+        
+    
+    
+            var marker_2f3f82f65a874a6cba0b565f9296d85d = L.marker(
+                [59.25156081982143, 17.617236202013956],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_9af2b0a6a2674db7aa90814e147503f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f3f82f65a874a6cba0b565f9296d85d.setIcon(icon_9af2b0a6a2674db7aa90814e147503f0);
+        
+    
+        var popup_49fe4320602e4689b4fba0a6390f47b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15a75006c05540779050c2c88793c673 = $(`<div id="html_15a75006c05540779050c2c88793c673" style="width: 100.0%; height: 100.0%;">Korpbergets naturreservat</div>`)[0];
+            popup_49fe4320602e4689b4fba0a6390f47b3.setContent(html_15a75006c05540779050c2c88793c673);
+        
+
+        marker_2f3f82f65a874a6cba0b565f9296d85d.bindPopup(popup_49fe4320602e4689b4fba0a6390f47b3)
+        ;
+
+        
+    
+    
+            var marker_2e3df94df24e4bd4b7538602451b3b37 = L.marker(
+                [59.21671818525304, 17.677827159839232],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_1178a49dc62b471ebc02f2aca12271e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e3df94df24e4bd4b7538602451b3b37.setIcon(icon_1178a49dc62b471ebc02f2aca12271e5);
+        
+    
+        var popup_a9af6c1c2de64d7f88708a8f460cec76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a1105a9c7274dfb80ad37c9bf138c67 = $(`<div id="html_7a1105a9c7274dfb80ad37c9bf138c67" style="width: 100.0%; height: 100.0%;">Bornsjön naturreservat</div>`)[0];
+            popup_a9af6c1c2de64d7f88708a8f460cec76.setContent(html_7a1105a9c7274dfb80ad37c9bf138c67);
+        
+
+        marker_2e3df94df24e4bd4b7538602451b3b37.bindPopup(popup_a9af6c1c2de64d7f88708a8f460cec76)
+        ;
+
+        
+    
+    
+            var marker_a0f256df23414e44a9853d3661c24c81 = L.marker(
+                [59.15285305619696, 17.487604832299784],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_b29867cd230c4747b78e1226ed33f105 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0f256df23414e44a9853d3661c24c81.setIcon(icon_b29867cd230c4747b78e1226ed33f105);
+        
+    
+        var popup_fa276cddcae64ec490da8741318f8b37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b53693862b3c430c8571adeb5c6bf041 = $(`<div id="html_b53693862b3c430c8571adeb5c6bf041" style="width: 100.0%; height: 100.0%;">Vackstaskogens naturreservat</div>`)[0];
+            popup_fa276cddcae64ec490da8741318f8b37.setContent(html_b53693862b3c430c8571adeb5c6bf041);
+        
+
+        marker_a0f256df23414e44a9853d3661c24c81.bindPopup(popup_fa276cddcae64ec490da8741318f8b37)
+        ;
+
+        
+    
+    
+            var marker_e37ea68c13d9477da855748cff265c8a = L.marker(
+                [58.97558317896149, 17.566231279724576],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_335dcf4f26de489db8981a3260b44c82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e37ea68c13d9477da855748cff265c8a.setIcon(icon_335dcf4f26de489db8981a3260b44c82);
+        
+    
+        var popup_66dabc09256a42f99416047a9c8b6bc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4122efe00f7144b9bf5136e9625f1f2e = $(`<div id="html_4122efe00f7144b9bf5136e9625f1f2e" style="width: 100.0%; height: 100.0%;">Tullgarns naturvårdsområde</div>`)[0];
+            popup_66dabc09256a42f99416047a9c8b6bc1.setContent(html_4122efe00f7144b9bf5136e9625f1f2e);
+        
+
+        marker_e37ea68c13d9477da855748cff265c8a.bindPopup(popup_66dabc09256a42f99416047a9c8b6bc1)
+        ;
+
+        
+    
+    
+            var marker_22660a7617f14b2ab477fa4f75223a52 = L.marker(
+                [59.090411647335074, 17.414832678733244],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_fea3d0afcb924c1b9f522c5da0dd3892 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22660a7617f14b2ab477fa4f75223a52.setIcon(icon_fea3d0afcb924c1b9f522c5da0dd3892);
+        
+    
+        var popup_9b14907d7ad246a1b007beeab5eaf6a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efcbe2679ffb4606a6c78e7ecede4991 = $(`<div id="html_efcbe2679ffb4606a6c78e7ecede4991" style="width: 100.0%; height: 100.0%;">Stora Alsjöns naturreservat</div>`)[0];
+            popup_9b14907d7ad246a1b007beeab5eaf6a7.setContent(html_efcbe2679ffb4606a6c78e7ecede4991);
+        
+
+        marker_22660a7617f14b2ab477fa4f75223a52.bindPopup(popup_9b14907d7ad246a1b007beeab5eaf6a7)
+        ;
+
+        
+    
+    
+            var marker_fde151efcdcb4c559716c4ddd1d994ac = L.marker(
+                [59.09417328773784, 17.653344570115944],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_d46605fd08204d3f8c07e2d18df9ab8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fde151efcdcb4c559716c4ddd1d994ac.setIcon(icon_d46605fd08204d3f8c07e2d18df9ab8b);
+        
+    
+        var popup_12a9e52068e94bc7b42e33ce4ed3028e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd395fa2696e40afa212321e3692577a = $(`<div id="html_dd395fa2696e40afa212321e3692577a" style="width: 100.0%; height: 100.0%;">Farstanäs naturreservat</div>`)[0];
+            popup_12a9e52068e94bc7b42e33ce4ed3028e.setContent(html_dd395fa2696e40afa212321e3692577a);
+        
+
+        marker_fde151efcdcb4c559716c4ddd1d994ac.bindPopup(popup_12a9e52068e94bc7b42e33ce4ed3028e)
+        ;
+
+        
+    
+    
+            var marker_85517f9413a24562965320f997692927 = L.marker(
+                [58.850645915468554, 17.70779576749254],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_307bc3965e574201a1e21b88bd699b9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85517f9413a24562965320f997692927.setIcon(icon_307bc3965e574201a1e21b88bd699b9c);
+        
+    
+        var popup_a90a0b939bf544b49f29a704dbdafe94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9a191c0a6fa475a8c19b08185e417a6 = $(`<div id="html_b9a191c0a6fa475a8c19b08185e417a6" style="width: 100.0%; height: 100.0%;">Fifång naturreservat</div>`)[0];
+            popup_a90a0b939bf544b49f29a704dbdafe94.setContent(html_b9a191c0a6fa475a8c19b08185e417a6);
+        
+
+        marker_85517f9413a24562965320f997692927.bindPopup(popup_a90a0b939bf544b49f29a704dbdafe94)
+        ;
+
+        
+    
+    
+            var marker_f71f194f7d044e759e7ddea567a42f13 = L.marker(
+                [59.08515995103603, 17.450580587833908],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_ad981221d1284bbab92aafb862d93b34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f71f194f7d044e759e7ddea567a42f13.setIcon(icon_ad981221d1284bbab92aafb862d93b34);
+        
+    
+        var popup_15371bf5d5cf407db629410fd5195422 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe862ba1ea344f809d7724c273fcb99a = $(`<div id="html_fe862ba1ea344f809d7724c273fcb99a" style="width: 100.0%; height: 100.0%;">Vattgruvmossens naturreservat</div>`)[0];
+            popup_15371bf5d5cf407db629410fd5195422.setContent(html_fe862ba1ea344f809d7724c273fcb99a);
+        
+
+        marker_f71f194f7d044e759e7ddea567a42f13.bindPopup(popup_15371bf5d5cf407db629410fd5195422)
+        ;
+
+        
+    
+    
+            var marker_f0a7fa4a20964037856cdd470fdf152d = L.marker(
+                [58.95988665850552, 17.605242682011145],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_592c3cb915f3499c99812f8ac5613f28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f0a7fa4a20964037856cdd470fdf152d.setIcon(icon_592c3cb915f3499c99812f8ac5613f28);
+        
+    
+        var popup_7dbd566b87c34a7ea05433a243c17dec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4822caac151497b8cbb8f53a879392b = $(`<div id="html_f4822caac151497b8cbb8f53a879392b" style="width: 100.0%; height: 100.0%;">Tullgarns naturreservat</div>`)[0];
+            popup_7dbd566b87c34a7ea05433a243c17dec.setContent(html_f4822caac151497b8cbb8f53a879392b);
+        
+
+        marker_f0a7fa4a20964037856cdd470fdf152d.bindPopup(popup_7dbd566b87c34a7ea05433a243c17dec)
+        ;
+
+        
+    
+    
+            var marker_c750b569293e4acbaca0964d7edc9a2f = L.marker(
+                [58.93059272867865, 17.64655621740545],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_053abc5bec16448198f752f89c216751 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c750b569293e4acbaca0964d7edc9a2f.setIcon(icon_053abc5bec16448198f752f89c216751);
+        
+    
+        var popup_ba5714d976b34786b780941d90ce3a58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_827add6c63ed4bf1acb84aa69d99b2df = $(`<div id="html_827add6c63ed4bf1acb84aa69d99b2df" style="width: 100.0%; height: 100.0%;">Eriksö naturreservat</div>`)[0];
+            popup_ba5714d976b34786b780941d90ce3a58.setContent(html_827add6c63ed4bf1acb84aa69d99b2df);
+        
+
+        marker_c750b569293e4acbaca0964d7edc9a2f.bindPopup(popup_ba5714d976b34786b780941d90ce3a58)
+        ;
+
+        
+    
+    
+            var marker_5efc3c39b43e4703b1303fb9b8372ba7 = L.marker(
+                [59.22728509346085, 17.58049521226314],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_2572df0eeacc47498defbd14f69d2b56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5efc3c39b43e4703b1303fb9b8372ba7.setIcon(icon_2572df0eeacc47498defbd14f69d2b56);
+        
+    
+        var popup_d25613a568f44b82b97d60dc81ce5f83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24c33157165341328e70a6c2362e999b = $(`<div id="html_24c33157165341328e70a6c2362e999b" style="width: 100.0%; height: 100.0%;">Lina naturreservat</div>`)[0];
+            popup_d25613a568f44b82b97d60dc81ce5f83.setContent(html_24c33157165341328e70a6c2362e999b);
+        
+
+        marker_5efc3c39b43e4703b1303fb9b8372ba7.bindPopup(popup_d25613a568f44b82b97d60dc81ce5f83)
+        ;
+
+        
+    
+    
+            var marker_15fe2213f28b4334876b8f998688fb35 = L.marker(
+                [59.11353292804018, 17.34426504501973],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_049a2e94d3784faea836e48aab713a22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15fe2213f28b4334876b8f998688fb35.setIcon(icon_049a2e94d3784faea836e48aab713a22);
+        
+    
+        var popup_7085b6b5dcad4cf48eb055ab892be889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77a7398b999a434793aee291df3a6eac = $(`<div id="html_77a7398b999a434793aee291df3a6eac" style="width: 100.0%; height: 100.0%;">Stora Envätterns naturreservat</div>`)[0];
+            popup_7085b6b5dcad4cf48eb055ab892be889.setContent(html_77a7398b999a434793aee291df3a6eac);
+        
+
+        marker_15fe2213f28b4334876b8f998688fb35.bindPopup(popup_7085b6b5dcad4cf48eb055ab892be889)
+        ;
+
+        
+    
+    
+            var marker_a4079ec900bd41f29a4ba900740382e2 = L.marker(
+                [59.05929875788033, 17.359512664521077],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_3bce06b96a924df688076b17299a076c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a4079ec900bd41f29a4ba900740382e2.setIcon(icon_3bce06b96a924df688076b17299a076c);
+        
+    
+        var popup_cc34a5f0d6f046068e91a50940c9fb82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6318265a7d47490ea97e916a41146a8b = $(`<div id="html_6318265a7d47490ea97e916a41146a8b" style="width: 100.0%; height: 100.0%;">Skogstorps naturreservat</div>`)[0];
+            popup_cc34a5f0d6f046068e91a50940c9fb82.setContent(html_6318265a7d47490ea97e916a41146a8b);
+        
+
+        marker_a4079ec900bd41f29a4ba900740382e2.bindPopup(popup_cc34a5f0d6f046068e91a50940c9fb82)
+        ;
+
+        
+    
+    
+            var marker_5cfb297636f24d3480268e30486fea7d = L.marker(
+                [59.003238170703995, 17.7026007853344],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_d93089af7b9c485bb1534a66d0f9db8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5cfb297636f24d3480268e30486fea7d.setIcon(icon_d93089af7b9c485bb1534a66d0f9db8f);
+        
+    
+        var popup_eac4a8d1f0024867b7fa34c5ac2b726d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f37358435b414772bad89f083d700db5 = $(`<div id="html_f37358435b414772bad89f083d700db5" style="width: 100.0%; height: 100.0%;">Kalkbergets naturreservat</div>`)[0];
+            popup_eac4a8d1f0024867b7fa34c5ac2b726d.setContent(html_f37358435b414772bad89f083d700db5);
+        
+
+        marker_5cfb297636f24d3480268e30486fea7d.bindPopup(popup_eac4a8d1f0024867b7fa34c5ac2b726d)
+        ;
+
+        
+    
+    
+            var marker_129619b0b5a8490d897e467bb990508c = L.marker(
+                [59.103850560415104, 17.68048024651388],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_ede5906f007e4ebca1a42c0e8e7eda1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_129619b0b5a8490d897e467bb990508c.setIcon(icon_ede5906f007e4ebca1a42c0e8e7eda1c);
+        
+    
+        var popup_9be5091c51614772aed46f9bb6c74742 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1db2df0345049d6b82d37e25fe32639 = $(`<div id="html_c1db2df0345049d6b82d37e25fe32639" style="width: 100.0%; height: 100.0%;">Brandalsunds naturreservat</div>`)[0];
+            popup_9be5091c51614772aed46f9bb6c74742.setContent(html_c1db2df0345049d6b82d37e25fe32639);
+        
+
+        marker_129619b0b5a8490d897e467bb990508c.bindPopup(popup_9be5091c51614772aed46f9bb6c74742)
+        ;
+
+        
+    
+    
+            var marker_e43c6dbc30d14b8aa1fdfeb3e259500e = L.marker(
+                [59.31798170168233, 17.40185067959776],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_7954d92a0bf9458bb31f1933a5ebbd19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e43c6dbc30d14b8aa1fdfeb3e259500e.setIcon(icon_7954d92a0bf9458bb31f1933a5ebbd19);
+        
+    
+        var popup_4353cdc4448e4343a1f93e336f336d7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74c7d50453dd463bbfa31453312b6e2f = $(`<div id="html_74c7d50453dd463bbfa31453312b6e2f" style="width: 100.0%; height: 100.0%;">Hamnskärs naturreservat</div>`)[0];
+            popup_4353cdc4448e4343a1f93e336f336d7d.setContent(html_74c7d50453dd463bbfa31453312b6e2f);
+        
+
+        marker_e43c6dbc30d14b8aa1fdfeb3e259500e.bindPopup(popup_4353cdc4448e4343a1f93e336f336d7d)
+        ;
+
+        
+    
+    
+            var marker_8395b589bd5c4b8588ae11512f5e7900 = L.marker(
+                [59.27682790356238, 17.53698786792328],
+                {}
+            ).addTo(map_bac06b366e89463fa274b984ccae7dbf);
+        
+    
+            var icon_70672cc759f545e4a12919fc197ada66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8395b589bd5c4b8588ae11512f5e7900.setIcon(icon_70672cc759f545e4a12919fc197ada66);
+        
+    
+        var popup_4cee47c16ce44002b893fbba692a30af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5addd6048b2741a59c70e1d026f8cf3d = $(`<div id="html_5addd6048b2741a59c70e1d026f8cf3d" style="width: 100.0%; height: 100.0%;">Slandön</div>`)[0];
+            popup_4cee47c16ce44002b893fbba692a30af.setContent(html_5addd6048b2741a59c70e1d026f8cf3d);
+        
+
+        marker_8395b589bd5c4b8588ae11512f5e7900.bindPopup(popup_4cee47c16ce44002b893fbba692a30af)
+        ;
+
+        
+    
+</script>
