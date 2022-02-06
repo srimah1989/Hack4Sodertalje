@@ -56,18 +56,6 @@ Finally, we bring everything together via:
 
 
 
-## Background and sources
-Adverse effects of heat waves on mortality among vulnerable group of population are well known. Heat waves in Sweden used to occur once in every 20 years in the past century. But this new millenium has given us a new climate challenge where it has occured 4 times since 2000. As suggested by the Swedish researchers from Umea extended hot days of 27 degree - 30 degrees for 3 consecutive days will increase the mortality and cardiovascular health risk between 10 and 20% [1]. Research suggests that effects of climate change will increase the occurance of heat waves and consecutive hot days during summer. This in turn will affect the elderly and people with cardiovascular diseases. 
-
-
-A multitude of data sources have been gathered for our hack. 
-1. [Survey Results from Senior Population](./data/survey-results)
-2. [Historical Temperature changes](./data/stockholm-historical-temps-monthly-3)
-3. [Demographics of the City](./data/demographics-data)
-4. [Bath places in the City](./data/bath-places)
-5. [Green spaces in the City](./data/green-spaces-geojson-data)
-6.  
-
 
 ## Data sets used
 
@@ -77,7 +65,6 @@ Regular street map
 Solar studies based on Södertälje’s “virtual city” 3D map can show when and where public spaces will be in the sun and the solar intensity. This allows us to predict the ambient temperature at any public space at any time of day or year.
 
 This combined with heat photos and sensors can tell us the actual temperatures, as well as why the temperatures are high or low. 
-
 
 
 
@@ -95,6 +82,21 @@ This includes distances between oases of rest, water, toilets, sheltered stops f
 There is data on the buildings, their environmental classification, if not their heat resistance. Likewise we know where people are living, and within constraints of privacy their age and health status. Eventually the at-risk population can be simulated or contacted. 
 
 
-## Reference
-[1] https://doi.org/10.1016/j.maturitas.2011.03.008
-[2] https://www.vox.com/22557563/how-to-redesign-cities-for-heat-waves-climate-change
+
+## Background and sources
+Adverse effects of heat waves on mortality among vulnerable group of population are well known. Heat waves in Sweden used to occur once in every 20 years in the past century. But this new millenium has given us a new climate challenge where it has occured 4 times since 2000. As suggested by the Swedish researchers from Umea extended hot days of 27 degree - 30 degrees for 3 consecutive days will increase the mortality and cardiovascular health risk between 10 and 20% [1]. Research suggests that effects of climate change will increase the occurance of heat waves and consecutive hot days during summer. This in turn will affect the elderly and people with cardiovascular diseases. 
+
+
+A multitude of data sources have been gathered for our hack. 
+1. [Survey Results from Senior Population](./data/survey-results)
+2. [Historical Temperature changes](./data/stockholm-historical-temps-monthly-3)
+3. [Demographics of the City](./data/demographics-data)
+4. [Bath places in the City](./data/bath-places)
+5. [Green spaces in the City](./data/green-spaces-geojson-data)
+6. [Svalkande miljöer viktiga när värmeböljor stressar svenska städer] Eskilstuna 26 juli 2014 [3]
+
+
+## References
+1. https://doi.org/10.1016/j.maturitas.2011.03.008
+2. https://www.vox.com/22557563/how-to-redesign-cities-for-heat-waves-climate-change
+3. https://www.smhi.se/forskning/forskningsnyheter/svalkande-miljoer-viktiga-nar-varmeboljor-stressar-svenska-stader-1.136119
