@@ -8,8 +8,7 @@ From elsewhere we know that extreme weather adversely affects vulnerable and exc
 The same groups are exposed: The sick, the elderly, the homeless, the poor. High energy prices this winter showed how, under wrong circumstances, the group of vulnerable people could grow larger than that. Södertälje is not a city characterised by extreme weather, nor will it be, but it is better prepared for some than for others. So let us turn up the heat.
 
 
-
-## Motivation
+##  Our tool - Sodertalje's Heat Wave Alert System
 This tool is designed for dual use, scenario planning and adverse weather warning and information system. Planners can correct weak spots ahead of time, while when the heat is here the affected (or their carers) can see how best to adapt. This goes for less extreme weather as well. Where others may feel a slight discomfort or even find it enjoyable, it will be a barrier for our groups from taking part in public life. This barrier can be reduced with some planning. 
 
 It is an iterative tool, as it is used it will show which relevant data sets are missing, and hopefully motivate their owners to open these up. It is also intended to be used in other planning tools, for instance as an overlay. 
@@ -28,7 +27,7 @@ ALERT SYSTEM (Warning and public information)
 * Mark places having heat island effects. 
 * An info system on places to go on hots with temprature on bath places. (We have that data on open data) And systems to detect nearby "cool-down" spots.
 
-## Our tool - Sodertalje's Heat Wave Alert System
+## Motivation
 
 (http://currents.plos.org/disasters/files/2013/10/Heatwave-levels-600x285.png)
 
